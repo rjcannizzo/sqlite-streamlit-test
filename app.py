@@ -3,7 +3,7 @@ import pandas as pd
 from utils import Database
 db = Database()
 
-st.title('SQLite Test')
+st.title('SQLite Test v2')
 
 
 raw_data = db.get_data()
